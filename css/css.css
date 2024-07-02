@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing : border-box;
+    font-family: 'segoe ui light';
+}
+
+.ml-auto{
+    margin-left: auto;
+}
+.bg-opacity
+{
+    background-color: rgba(0,0,0,0.5);
+}
+
+header{
+    background-image: url("../images/mainBg.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+.searchInput
+{
+    top: 85%;
+}
+
+#searchBtn{
+    width: 140px;
+    
+}
+
+.se{
+    background-image: url("../images/1.png");
+ 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section h2 {
+    font-size:40px;
+}
+section p {
+    font-size:20px;
+}
+
+.category{
+    background-image: url(../images/category-bg.png);
+    background-position: center center;
+    background-size: cover;
+}
+.category h2{
+    text-align: center;
+}
+
+
