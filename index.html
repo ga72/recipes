@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="bootstrap-5.3.1-dist/css/bootstrap.min.css">
+    <title>Recipes</title>
+</head>
+<body>
+ 
+  <header class="vh-100 d-flex flex-wrap  align-items-start justify-content-center position-relative">
+    <nav class="navbar navbar-expand-lg w-100  navbar-dark bg-opacity">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./images/logo.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Recipes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACTS</a>
+            </li>
+           
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <h1 class="text-white">Never miss a Recipe</h1>
+
+
+    <div class="searchInput position-absolute w-75 m-auto p-5 shadow-lg rounded bg-white">
+      <div class="row gutters">
+        <div class="col-md-10">
+          <input id="searchInput" placeholder="search recipes" class=" rounded-0 form-control" type="text" name=""
+            id="">
+
+        </div>
+        <div class="col-md-2">
+          <button id="searchBtn" class="btn btn-danger text-white ">search</button>
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+  <section class="se p-5 d-flex justify-content-center align-items-center w-75 m-auto">
+    <div class="content p-5 " >
+      <h2 class="text-center">Recipe Categories
+      </h2>
+      <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Rem necessitatibus ducimus consectetur nostrum pariatur. Ea iusto .</p>
+    </div>
+
+
+    
+  </section>
+  <div class="container" >
+    <div class="row">
+      <div class="col-md-3">
+        <div class="category">
+          <h2>MeaL Type</h2>
+
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="category">
+          <h2>Diet & Health
+          </h2>
+        </div>
+        
+      </div>
+      <div class="col-md-3">
+        <div class="category">
+          <h2>Ingredient
+          </h2>
+        </div>
+        
+      </div>
+      <div class="col-md-3">
+        <div class="category">
+          <h2>Dish Type </h2>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+
+        <div class="row" id="recipesRow">
+        
+          
+        </div>
+      </div>
+
+      <div class="col-md-4" id="recipeDetails">
+
+        <!-- recipe details-->
+
+
+      </div>
+    </div>
+  </div>
+
+    <script src="bootstrap-5.3.1-dist/js/bootstrap.min.js"></script>
+    <script src="js/js.js"></script>
+
+</body>
+</html>
